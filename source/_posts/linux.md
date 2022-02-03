@@ -14,4 +14,6 @@ tags: linux ssh
   * authorized_keys `644 (-rw-r--r--)`
   * private key (id_rsa) `600 (-rw-------)`
  
+複製 public key 到 server
+  1. `ssh-copy-id -i <public key file> username@host`
 -----
